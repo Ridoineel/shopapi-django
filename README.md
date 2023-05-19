@@ -1,6 +1,9 @@
 # SHOP API
-## Made with Django (Django Rest Framework) 
+> Made with Django (Django Rest Framework) 
 
+![Classes Diagram](./assets/images/diagrams_shopapi.drawio.png)
+
+<center>Classes diagram</center>
 
 ## Install dependencies
 
@@ -8,7 +11,7 @@
 pip install -r requirements.txt
 ```
 
-## Configure Firebase for image storing
+## Configure firebase for the images storing
 
 ### `/.env` file
 
@@ -18,11 +21,12 @@ FIREBASE_STORAGE_BUCKET=you-app-name.appspot.com
 
 Replace `you-app-name` with your firebase app name 
 
-### `/.firebase.config.json`
+### `/.firebase.config.json` file
 
-> Credential of The firebase app  (JSON)
+> Credential of your firebase app  (JSON)
 
-her schema
+Schema
+
 ```json
 {
   "type": ,
@@ -48,7 +52,7 @@ her schema
 
 ## Create super user (admin)
 
-```bash
+```bashThe
 ./manage.py createsuperuser
 ```
 
