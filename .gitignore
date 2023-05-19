@@ -1,0 +1,10 @@
+.venv
+.idea
+*.sqlite3
+
+__pycache__/
+static/product/images/*.*
+
+.env
+env
+/firebase.config.json

@@ -1,0 +1,2 @@
+msgid "Categories"
+msgstr "Categoriess"
