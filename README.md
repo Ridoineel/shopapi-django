@@ -70,3 +70,15 @@ Schema
     
     http://localhost:8000/redoc
  
+
+ ## Features
+
+    - Manage Deliveries
+    - Manage payement
+        - With Strip
+        - With Paygate (MOOV & T-MONEY)
+    - ...
+
+<br />
+
+Thank you 😊
