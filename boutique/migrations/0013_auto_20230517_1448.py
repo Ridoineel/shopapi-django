@@ -28,14 +28,6 @@ class Migration(migrations.Migration):
             field=models.CharField(choices=[('XOF', 'F Cfa'), ('EUR', 'Euro')], default='XOF', max_length=10),
         ),
         migrations.CreateModel(
-            name='Transaction',
-            fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('date', models.DateTimeField(auto_now_add=True, null=True)),
-                ('order', models.OneToOneField(on_delete=django.db.models.deletion.DO_NOTHING, related_name='transaction', to='boutique.order')),
-            ],
-        ),
-        migrations.CreateModel(
             name='OrderedProduct',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
