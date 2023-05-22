@@ -45,6 +45,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
     path("api/", include(router.urls)),
+    path("api/payment/", include("payment.urls")),
     ##
     path("api/auth/signin", TokenObtainPairView.as_view(), name="auth-token"),
     path("api/auth/token-refresh", TokenRefreshView.as_view(), name="refresh-token"),

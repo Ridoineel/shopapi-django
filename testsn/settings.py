@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "accounts",
     "boutique",
+    "payment",
     'rest_framework',
     'rest_framework_simplejwt',
     'drf_yasg',

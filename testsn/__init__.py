@@ -11,6 +11,9 @@ modules_path = {
     path.join(BASE_DIR, "boutique", "models"),
     path.join(BASE_DIR, "boutique", "serializers"),
     path.join(BASE_DIR, "boutique", "views"),
+    path.join(BASE_DIR, "payment", "models"),
+    path.join(BASE_DIR, "payment", "serializers"),
+    path.join(BASE_DIR, "payment", "views")
 }
 
 for d in modules_path:
