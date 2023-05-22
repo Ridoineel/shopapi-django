@@ -13,7 +13,8 @@ from boutique.views import \
     ProductViewSet, \
     AdminCategoryViewSet, \
     AdminProductViewSet, \
-    OrderViewSet
+    OrderViewSet, \
+    DeliveryViewSet
 
 from accounts.views import AuthViewSet
 
@@ -38,6 +39,7 @@ router.register("order", OrderViewSet, basename="order")
 router.register("admin/category", AdminCategoryViewSet, basename="admin-categorie")
 router.register("admin/product", AdminProductViewSet, basename="admin-product")
 router.register("auth", AuthViewSet, basename="auth")
+router.register("delivery", DeliveryViewSet, basename="delivery")
 
 urlpatterns = [
     path("admin/", admin.site.urls),
