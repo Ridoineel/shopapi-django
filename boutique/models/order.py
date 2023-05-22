@@ -17,4 +17,7 @@ class Order(models.Model):
 
     def add_product(self, product, quantity):
         OrderedProduct.objects.create(product=product, quantity=quantity, order=self)
-        
+    
+    def __str__(self):
+        return f"Order({self.id})"
+    
