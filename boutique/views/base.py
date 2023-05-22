@@ -5,6 +5,7 @@ class BaseViewSet:
 	list_serializer_class = None
 	detail_serializer_class = None
 	update_serializer_class = None
+	permission_classes = None
 
 	def get_serializer_class(self):
 		SERIALIZER_CLASSES = {
