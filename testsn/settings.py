@@ -205,7 +205,7 @@ firebase_admin.initialize_app(cred, {
 storage_client = storage.bucket()
 
 # Récupération de la référence à la base de données
-rtdb_ref = db.reference('/')
+# rtdb_ref = db.reference('/')
 
 # def onChange(event):
 #     print("change")
